@@ -1,0 +1,149 @@
+
+*{
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+.header{
+
+    height: 78px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 50%, rgba(233,241,252,1) 54%);
+}
+
+.nav{
+
+    margin: 0px 100px 25px 0;
+    text-align: right;
+    line-height: 75px
+    
+}
+
+.navUl{
+    
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+
+}
+
+.navLi{
+
+    display:inline-flex;
+    text-align: right;
+    margin: 0 48px 0 0;
+    font-weight: 500;
+    
+}
+
+.LiIndex{
+
+    display:inline-flex;
+    float: left;
+    margin: 0 50px 0 100px;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.h4Nav{
+
+    text-align: left;
+    color: #2949c7;
+    display: inline;
+    text-decoration: none;
+
+}
+
+.linkNav{
+
+    box-shadow: none;
+    text-decoration: none;
+    color: #6d7b93;
+
+}
+
+.imgNurse1{
+
+    float: right;
+    /*height: 811px;*/
+    width: 612px;
+    clear: both;
+
+}
+
+.triangulo1{
+
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #f4f6fb;
+    border-left: 100px solid transparent;
+    border-bottom: 0px solid transparent;
+
+}
+
+.triangulo2{
+
+    width: 0;
+    height: 0;
+    border-right: 100px solid #f4f6fb;
+    border-top: 100px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 100px solid transparent;
+    display: inline-block;
+    
+}
+
+.section1{
+
+    background-color: #ffffff;
+    margin-left: 100px;
+
+}
+
+.h1{
+
+    font-weight:700;
+    font-size:50px;
+    font-style: normal;
+    color: #1f3e72;
+    margin-bottom: 40px;
+    line-height: 65px;
+
+}
+
+.p{
+
+    font-size: large;
+    color: #6d7b93;
+
+}
+
+.icons{
+
+    width: 30px; 
+    height: 30px;
+
+}
+
+.banner1{
+
+    margin-top: -55px;
+    background-color: #ffffff;
+
+}
+
+.itemsBanner1{
+
+    display: inline-block;
+    width: auto;
+    list-style-image: url("../Img/icons/shield1.png");
+
+}
+
+.textBanner{
+
+    margin-bottom: 20px;
+
+}
