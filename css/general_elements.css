@@ -1,0 +1,228 @@
+/*--------------------General-------------------*/
+
+* {
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+  }
+  
+  /*--------------------Header-------------------*/
+  
+  
+  header {
+    height: 100px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(233, 241, 252, 1) 54%
+    );
+  }
+  
+  .nav {
+    margin: 0px 100px 25px 0;
+    text-align: right;
+    line-height: 75px;
+    position: relative;
+  }
+  
+  .navUl {
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+  }
+  
+  .navLi {
+    display: inline-flex;
+    text-align: right;
+    margin: 0 48px 0 0;
+    font-weight: 500;
+  }
+  
+  .LiIndex {
+    display: inline-flex;
+    float: left;
+    margin: 0 50px 0 100px;
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .h4Nav {
+    text-align: left;
+    color: #2949c7;
+    display: inline;
+    text-decoration: none;
+  }
+  
+  .linkNav {
+    box-shadow: none;
+    text-decoration: none;
+    color: #6d7b93;
+  }
+  
+  .hoaxButton{
+  
+    background-color: #3757d5;
+    font-size: medium;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border-style: none;
+    width: 130px;
+    height: 50px;
+    box-shadow: 0px 15px 10px 0px rgba(109, 123, 123, 0.3);
+  
+  }
+  
+  /*--------------------Triangles-------------------*/
+  
+  
+  .triangulo1 {
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #f4f6fb;
+    border-left: 100px solid transparent;
+    border-bottom: 0px solid transparent;
+  }
+  
+  .triangulo2 {
+    position: absolute;
+    display: flex;
+    width: 0;
+    height: 0;
+    right: 620px;
+    top: 425px;
+    border-right: 100px solid #f4f6fb;
+    border-top: 100px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 100px solid transparent;
+  }
+  
+  .triangulo3 {
+    position: absolute;
+    display: flex;
+    width: 0;
+    height: 0;
+    right: 0px;
+    top: 1100px;
+    border-right: 100px solid #f4f6fb;
+    border-top: 100px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 100px solid transparent;
+  }
+  
+  .triangulo4 {
+    position: absolute;
+    display: flex;
+    width: 0;
+    height: 0;
+    left: 0px;
+    top: 1850px;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid #f4f6fb;
+    border-bottom: 100px solid transparent;
+  }
+  
+  .triangulo5 {
+    float: right;
+      width: 0;
+    height: 0;
+    margin-right: -530px;
+    margin-top: -45px;
+    border-right: 100px solid #f4f6fb;
+    border-top: 100px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 100px solid transparent;
+  }
+  
+  .triangulo6 {
+    
+    float: right;
+      width: 0;
+    height: 0;
+    margin-top: -190px;
+    margin-left: 860px;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #e2e9f9;
+  }
+
+  /*---------------------------Footer---------------------------*/
+
+footer{
+
+    float: left;
+    background-color: #eef3ff;
+    padding: 70px 110px 10px 100px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+  
+  .divTitleFoot{
+  
+    height: 260px;
+    flex-basis: 580px;
+  
+  }
+  
+  .h4Foot {
+  
+    margin-top: -5px;
+    text-align: left;
+    color: #2949c7;
+    text-decoration: none;
+    font-size:x-large;
+    margin-bottom: 20px;
+  }
+  
+  .pFoot{
+  
+    font-size: medium;
+    color: #6d7b93;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: left;
+  
+  }
+  
+  .divFoot{
+  
+    height: fit-content;
+    
+  }
+  
+  
+  .h3Footer{
+  
+    margin-top: -5px;
+    color: #1f3e72;
+    font-size: x-large;
+  
+  }
+  
+  .textFoot{
+  
+    font-size: medium;
+    color: #6d7b93;
+    font-weight: 500;
+    height: 50px;
+  
+  }
+  
+  
+  .divRights{
+  
+    flex-basis: 760px;  
+  
+  }
+  
+  .divTerms{
+  
+    position: relative;
+  
+  }  

@@ -1,0 +1,406 @@
+
+/*-------------Fight Virus With Vaccines--------------*/
+
+
+.imgNurse1 {
+  float: right;
+  /*height: 811px;*/
+  width: 612px;
+  clear: both;
+}
+
+.section {
+  background-color: #ffffff;
+  margin-left: 100px;
+}
+
+.h1 {
+  font-weight: 700;
+  font-size: 50px;
+  font-style: normal;
+  color: #1f3e72;
+  margin-bottom: 40px;
+  line-height: 65px;
+}
+
+.p {
+  font-size: large;
+  color: #6d7b93;
+}
+
+/*--------------------Schedule Banner------------------*/
+
+.banner1 {
+  width: fit-content;
+  height: fit-content;
+}
+
+.imgBanner1 {
+  height: fit-content;
+  margin-left: 0px;
+}
+
+.textBanner1 {
+  height: 20px;
+  vertical-align: middle;
+  width: fit-content;
+  color: #1f3e72;
+  font-weight: 500;
+}
+
+.h3 {
+  display: flex;
+  color: #1f3e72;
+  font-weight: 600;
+}
+
+.clockImg {
+  display: flex;
+  margin-right: 10px;
+}
+
+.divSchedule {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  margin-top: 130px;
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  top: 750px;
+  align-items: center;
+  background-color: rgba(250, 250, 250, 0.9);
+  box-shadow: 0px 15px 10px 0px rgba(109, 123, 123, 0.3);
+  border-radius: 5px;
+  width: 842px;
+  height: 143px;
+  margin-left: 130px;
+  padding-right: 50px;
+}
+
+.formIcon {
+  vertical-align: -15px;
+  margin-right: 5px;
+}
+
+.formDiv {
+  vertical-align: top;
+  color: #6d7b93;
+  font-size: large;
+  width: 220px;
+  margin-right: 10px;
+}
+
+.inputs {
+  background: transparent;
+  border-style: none;
+  margin-left: 40px;
+  font-size: larger;
+  font-weight: 600;
+  color: #1f3e72;
+  width: 185px;
+  caret-color: #1f3e72;
+}
+
+.submitButton {
+  font-size: large;
+  text-align: center;
+  margin-right: 10px;
+  padding: 10px 35px 10px 35px;
+  color: #fafafa;
+  background-color: #2949c7;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 10px 10px 0px rgba(109, 123, 123, 0.3);
+  cursor: pointer;
+}
+
+/*-----------Why Should I Vaccine?-------------*/
+
+.h2 {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  color: #1f3e72;
+  line-height: 65px;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
+.sectionBenefits {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 100px;
+}
+
+.benefitsIcons {
+  height: 60px;
+  width: 60px;
+  margin-bottom: 0px;
+}
+
+.divBenefits {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  width: max-content;
+  height: 350px;
+  border-radius: 10px;
+  border-color: #f8f8fe;
+  border-style: solid;
+  border-width: 5px;
+  margin-right: 30px;
+}
+
+.h3Div {
+  display: flex;
+  color: #1f3e72;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.pDiv {
+  font-size: small;
+  color: #6d7b93;
+  line-height: 20px;
+}
+
+.shadow {
+  text-shadow: 0px 15px 10px 0px rgba(227, 236, 250, 0.5);
+  box-shadow: 0px 15px 10px 0px rgba(227, 236, 250, 0.5);
+}
+
+/*----------Preparations Before Vaccine-----------*/
+
+
+.sectionRight {
+  position: relative;
+  /*top: 1890px;
+  right: 100px;*/
+  margin-top: 50px;
+  float: right;
+  text-align: left;
+  background-color: #ffffff;
+  clear: both;
+}
+
+.h2Preparations{
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    color: #1f3e72;
+    line-height: 65px;
+  }
+
+
+.imgWoman{
+
+  width: 612px;
+  margin-top: 150px;
+	float: left;
+
+}
+
+.preparations{
+
+  float: right;
+	margin-top:40px;
+  margin-right: 150px;
+  width: 460px;
+
+}
+
+details{
+
+  position: relative;
+  font-size:small;
+  color: #6d7b93;
+  cursor: pointer;
+  background-color: white;
+
+}
+
+details[open]{
+
+  background-color: white;
+
+}
+
+
+summary{
+
+  color: #1f3e72;
+  font-weight: 500;
+  font-size: large;
+  line-height: 20px;
+  list-style: none;
+  background-color: white;
+
+}
+
+details summary::before{
+
+  position: absolute;
+  content:url(../Img/icons/open.png);
+  top: -5px;
+  right: 10px;
+
+}
+
+details[open] summary::before{
+
+  position: absolute;
+  content:url(../Img/icons/close.png);
+  top: -5px;
+  right: 10px; 
+
+}
+
+.preparationsIcons{
+
+  width: 30px;
+  height: 30px;
+  vertical-align:-8px;
+  margin-right: 10px;
+
+}
+
+.divDetails{
+
+  border-radius: 10px;
+  border-color: #f8f8fe;
+  border-style: solid;
+  border-width: 3px;
+  width: 460px;
+  padding-left: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0px 15px 10px 0px rgba(227, 236, 250, 0.5);
+  background-color: white;
+
+}
+
+.pDetails{
+
+  margin-left:40px;
+
+}
+
+/*-----------------------Emergency Contact---------------------*/
+
+.imgNurseMale{
+
+	float: right;
+	width: 530px;
+	margin-right: 0px;
+	margin-top: 125px;
+  
+
+}
+
+.sectionEmergency{
+
+	clear: both;
+	padding-top: 30px;
+	margin-left: 100px;
+
+}
+
+.h2Emergency{
+
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+    color: #1f3e72;
+    line-height: 65px;
+    margin-bottom: 40px;
+ 
+}
+
+.sectionContact{
+
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 70px;
+  margin-bottom: 130px;
+
+}
+
+.divContact{
+
+	display: flex;
+	border-color: #f8f8fe;
+	border-radius: 10px;
+	border-style: solid;
+  border-width: 3px;
+	padding: 20px	20px 30px 20px;
+	width: 260px;
+	height: 190px;
+  margin-bottom:30px;
+  margin-right: 25px;
+
+}
+
+.contactIcons{
+
+	width: 60;
+	height: 60px;
+	margin-right: 10px;
+	
+}
+
+.h3Contact{
+
+	color: #1f3e72;
+  font-weight: 600;
+	margin-top: -5px;
+
+}
+
+.pContact{
+
+	margin-top: -10px;
+	font-size: medium;
+  color: #6d7b93;
+
+}
+
+.divButton{
+
+	text-align: left;
+  margin-top: 90px;
+  margin-left: -164px;	
+
+}
+
+.contactButton{
+
+  text-align: center;
+	background-color: #f1f5ff;
+	color: #3959d7;
+	font-size:large;
+	font-weight: bold;
+	width: 207px;
+  height: 50px;
+  border-radius: 5px;
+  border-style: none;
+  
+}
+
+.contactButton:hover {
+
+  background-color: #3757d5;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 20px 10px 0px rgba(227, 236, 250, 1);
+
+}
